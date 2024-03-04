@@ -1,0 +1,40 @@
+<!-- Modified signup form with additional fields -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>SignUp</h2>
+        <form action="/dietician" method="post">
+          <div class="form-group">
+            <label for="name">Dietician Name:</label>
+            <input type="text" id="name" name="dieticianName" placeholder="Enter dietician's name" required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <label for="phno">Phone Number:</label>
+            <input type="text" id="phno" name="phno" placeholder="Phone Number" required>
+          </div>
+          <div class="form-group">
+            <label for="expertise">Expertise Field:</label>
+            <input type="text" id="expertise" name="expertise" placeholder="Expertise Field" required>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+    
+</body>
+</html>
